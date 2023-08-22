@@ -39,7 +39,7 @@ const Icon: React.FC<IconProps> = ({ icon, size }) => {
             width={sizeData.width}
             height={sizeData.height}
             src={`${settings.assetsRoute}${icon}`}
-            alt="image"
+            alt="Picture of the author"
             draggable={false}
         />
     );
